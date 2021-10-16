@@ -1,0 +1,43 @@
+body {
+    background: radial-gradient(circle, rgba(236,20,20,1) 4%, rgba(25,31,199,1) 96%);
+}
+table {
+   width: 100%;
+   height: 80vh;
+   border-collapse: collapse;
+   text-align: center;
+}
+th,td {
+    border: 1px solid black;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+h1:hover{
+    cursor: pointer;
+    font-size: 50px;
+    font-weight: 600;
+    font-family:'Playfair Display', serif; 
+    color: crimson;
+    background: linear-gradient(45deg, rgba(190,107,217,1) 0%, rgba(234,173,173,1) 35%, rgba(243,184,232,1) 79%);
+}
+td:hover{
+    color: white;
+    font-size: 45px;
+    border: white;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    background: linear-gradient(45deg, rgba(165,103,210,1) 0%, rgba(255,147,211,1) 35%, rgba(92,232,120,1) 79%);
+}
+th:hover{
+    color: rgb(247, 247, 247);
+    cursor: pointer;
+    border: 2px solid white;
+}
+
